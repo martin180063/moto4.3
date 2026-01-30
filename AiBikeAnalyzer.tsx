@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { analyzeImage, fileToGenerativePart } from '../services/geminiService';
-
+import { analyzeImage, fileToGenerativePart } from './geminiService';
 export const AiBikeAnalyzer: React.FC = () => {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
