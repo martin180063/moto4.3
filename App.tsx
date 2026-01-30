@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import { Layout } from './components/Layout';
+import { Layout } from './Layout';
 import { Tab, DayItinerary } from './types';
-import { Checklist } from './components/Checklist';
-import { AiBikeAnalyzer } from './components/AiBikeAnalyzer';
-import { AiPhotoEditor } from './components/AiPhotoEditor';
-import { RouteMap } from './components/RouteMap';
-import { WeatherCard } from './components/WeatherCard';
-
+import { Checklist } from './Checklist';
+import { AiBikeAnalyzer } from './AiBikeAnalyzer';
+import { AiPhotoEditor } from './AiPhotoEditor';
+import { RouteMap } from './RouteMap';
+import { WeatherCard } from './WeatherCard';
 // --- Data Definitions ---
 
 const checkListItems = [
