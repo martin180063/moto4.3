@@ -1,6 +1,5 @@
 import React from 'react';
-import { Tab } from '../types';
-
+import { Tab } from './types';
 interface LayoutProps {
   currentTab: Tab;
   onTabChange: (tab: Tab) => void;
