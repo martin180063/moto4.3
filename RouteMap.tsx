@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import L from 'leaflet';
-import { DayItinerary, Tab } from '../types';
-
+import { DayItinerary, Tab } from './types';
 interface RouteMapProps {
   allData: Record<string, DayItinerary>;
   currentDayId: string;
