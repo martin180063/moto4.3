@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { editImage, fileToGenerativePart } from '../services/geminiService';
-
+import { editImage, fileToGenerativePart } from './geminiService';
 export const AiPhotoEditor: React.FC = () => {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
